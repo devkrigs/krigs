@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    html {
+        @apply text-zinc-900;
+        @apply min-h-dvh;
+        @apply max-w-full;
+    }
+}
+
+@layer base {
+    body {
+        @apply min-h-dvh;
+        @apply max-w-full;
+    }
+}
+
+.k-transition {
+    transition:
+        width 0.3s,
+        padding 0.3s,
+        font-size 0.3s;
+}
