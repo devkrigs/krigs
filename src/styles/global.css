@@ -21,5 +21,7 @@
     transition:
         width 0.3s,
         padding 0.3s,
-        font-size 0.3s;
+        font-size 0.3s,
+        left 0.3s, 
+        top 0.3s;
 }
